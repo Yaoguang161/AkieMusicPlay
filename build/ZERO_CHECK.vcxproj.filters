@@ -9,6 +9,225 @@
     <None Include="E:\software\Code\AkieMusicPlay\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e\CMakeLists.txt">
       <Filter>Buildsystem Input Files\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e</Filter>
     </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\abseil-cpp.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\address_sorting.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\benchmark.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\cares.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\ccache.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\download_archive.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\gRPCConfig.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\msvc_static_runtime.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\pkg-config-template.pc.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\protobuf.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\re2.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\ssl.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\upb.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\xxhash.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake\zlib.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMake\AbseilDll.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMake\AbseilHelpers.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\algorithm\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\algorithm</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\base\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\base</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\cleanup\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\cleanup</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\container\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\container</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\copts</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\copts</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\crc\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\crc</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\debugging\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\debugging</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\flags\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\flags</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\functional\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\functional</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\hash\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\hash</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\log\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\log</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\memory\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\memory</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\meta\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\meta</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\numeric\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\numeric</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\profiling\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\profiling</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\random\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\random</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\status\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\status</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\strings\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\strings</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\synchronization\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\synchronization</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\time\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\time</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\types\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\types</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\utility\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\utility</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\boringssl-with-bazel\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\boringssl-with-bazel</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\c-ares-config.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\docs\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\docs</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\include\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\include</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\include\ares_build.h.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\include</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\libcares.pc.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\lib\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\lib</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\lib\ares_config.h.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\lib</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\tools\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\tools</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\extract_includes.bat.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\install.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\libprotobuf-lite.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\libprotobuf.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\libprotoc.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf-config-version.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf-config.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf-lite.pc.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf-module.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf-options.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protobuf.pc.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\protoc.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake\version.rc.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\re2\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\re2</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\re2\re2Config.cmake.in">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\re2</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib\zconf.h.cmakein">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib\zlib.pc.cmakein">
+      <Filter>Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib</Filter>
+    </None>
     <None Include="E:\software\Code\AkieMusicPlay\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\CMakeLists.txt">
       <Filter>Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0</Filter>
     </None>
@@ -17,6 +236,15 @@
     </None>
     <None Include="E:\software\Code\AkieMusicPlay\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake\utils.cmake">
       <Filter>Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\build\CPM_modules\FindgRPC.cmake">
+      <Filter>Buildsystem Input Files\build\CPM_modules</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\build\_deps\grpc-build\third_party\cares\cares\src\lib\Makefile.inc.cmake">
+      <Filter>Buildsystem Input Files\build\_deps\grpc-build\third_party\cares\cares\src\lib</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\build\_deps\grpc-build\third_party\cares\cares\src\tools\Makefile.inc.cmake">
+      <Filter>Buildsystem Input Files\build\_deps\grpc-build\third_party\cares\cares\src\tools</Filter>
     </None>
     <None Include="E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake">
       <Filter>Buildsystem Input Files\build\cmake</Filter>
@@ -32,14 +260,140 @@
     <Filter Include="CMake Rules">
       <UniqueIdentifier>{D6CAD566-FD64-36F3-B707-697880EC9946}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E2FF4C40-C649-3924-8877-E959C4567BCA}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Buildsystem Input Files\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e">
       <UniqueIdentifier>{E1171CAA-B12F-39BD-A762-C28E99FCD799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5">
+      <UniqueIdentifier>{3504F821-CAB3-3353-A375-075B0997A432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\cmake">
+      <UniqueIdentifier>{68885A2A-2317-305F-B05B-CE7EC79B3F69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp">
+      <UniqueIdentifier>{3E952032-B6F2-3083-8AA2-F49CD26CBB39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\CMake">
+      <UniqueIdentifier>{A909FD25-D114-31F0-A4D6-3B8954FB14D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl">
+      <UniqueIdentifier>{08EFC343-1774-37E5-9745-E1334835B35E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\algorithm">
+      <UniqueIdentifier>{BED270CC-DED4-36F9-B47B-545A8C478332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\base">
+      <UniqueIdentifier>{AB455767-B00F-383E-B987-551BB999FBA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\cleanup">
+      <UniqueIdentifier>{336F5BFD-EFD2-3A18-838C-249D45ED2830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\container">
+      <UniqueIdentifier>{A12F128C-08AB-3AF9-98FA-01DEACB8C831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\copts">
+      <UniqueIdentifier>{5C447A99-BE81-3901-A05D-C48770E55DB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\crc">
+      <UniqueIdentifier>{14EECCA1-EE47-3ED1-8B23-EC93FBDA1056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\debugging">
+      <UniqueIdentifier>{92A84FF0-D375-3C50-AB07-127FEE1C3238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\flags">
+      <UniqueIdentifier>{B0BAB403-F308-3485-A77B-B572452374B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\functional">
+      <UniqueIdentifier>{D3851D73-0A13-3CEA-B6F9-5F6EFBF14978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\hash">
+      <UniqueIdentifier>{73A3C91E-8079-3101-8568-DC6C7444007D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\log">
+      <UniqueIdentifier>{166EDE85-2E73-3AD4-BED1-89BE2B7A12CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\memory">
+      <UniqueIdentifier>{F8367057-A2A3-3C20-A937-CCCE50A67ED3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\meta">
+      <UniqueIdentifier>{E671970E-0371-3BBD-B139-2B3EF3C565B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\numeric">
+      <UniqueIdentifier>{4459C328-118B-3650-99F9-3FCB71D53114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\profiling">
+      <UniqueIdentifier>{040CA6C7-7599-30D8-B28D-F97ABB1F58E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\random">
+      <UniqueIdentifier>{28128C6D-10F7-354F-9110-23C756EB27FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\status">
+      <UniqueIdentifier>{4A1E571E-B8AD-329C-864A-4A3EA47FB9BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\strings">
+      <UniqueIdentifier>{0FDABD17-08F2-32CE-A126-81EB0393CB59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\synchronization">
+      <UniqueIdentifier>{22392C43-EAD6-3776-A66E-139FC1C935D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\time">
+      <UniqueIdentifier>{89555765-8B11-35CB-9BFF-3BA2CDC47DD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\types">
+      <UniqueIdentifier>{00CD574A-2F00-34B0-A610-2217B185F647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\abseil-cpp\absl\utility">
+      <UniqueIdentifier>{A096E7FA-226C-3722-B014-21DCF379DD9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\boringssl-with-bazel">
+      <UniqueIdentifier>{9C02452E-6678-38F9-B349-CF3EB05647E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares">
+      <UniqueIdentifier>{B098F0EF-F2BD-3E3E-AADF-BD4F46F9F852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\docs">
+      <UniqueIdentifier>{2DBC7775-CD97-3129-801F-394ADC93960E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\include">
+      <UniqueIdentifier>{76B242D7-2240-3D99-BD3D-30604BB402F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src">
+      <UniqueIdentifier>{54A8E7CA-2672-3468-8987-6A683B3C7902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\lib">
+      <UniqueIdentifier>{90EB5CF5-4102-3185-9CFD-4146B33B8DB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\cares\cares\src\tools">
+      <UniqueIdentifier>{8B4603EA-A78E-3B8C-9026-B09664443C6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf">
+      <UniqueIdentifier>{A09C35A0-D8D7-30EB-9C44-D209D9B30D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\protobuf\cmake">
+      <UniqueIdentifier>{34D669D0-F913-389D-8132-E320CCE3CF3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\re2">
+      <UniqueIdentifier>{F4069770-6AC4-3EC4-9E8E-55563E3B5E83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\grpc\a90d80073913ad4fc4ba247598246350258550c5\third_party\zlib">
+      <UniqueIdentifier>{A0021901-197D-335B-BF52-D4F51DBFD41D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0">
       <UniqueIdentifier>{F4132664-56D7-31F8-A673-64F2663DE4A0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake">
       <UniqueIdentifier>{B6DDC8CD-2083-3969-8800-93777943828F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\CPM_modules">
+      <UniqueIdentifier>{42A8D0E4-4715-399A-B61D-25679926EAD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\grpc-build\third_party\cares\cares\src\lib">
+      <UniqueIdentifier>{792CFB85-2660-374F-807D-61B733D21D66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\grpc-build\third_party\cares\cares\src\tools">
+      <UniqueIdentifier>{8C5239AB-BBCA-3416-9C99-7485DD78DF7A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Buildsystem Input Files\build\cmake">
       <UniqueIdentifier>{C4FA65C5-B276-354C-80AD-245432991793}</UniqueIdentifier>

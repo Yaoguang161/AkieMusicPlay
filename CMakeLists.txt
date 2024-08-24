@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.17...3.26)
 
 set(EXEC_NAME AkieMusicPlay)
 set(PROJ_NAME Akie_musicplay)
@@ -26,6 +26,16 @@ CPMAddPackage(
 # Alternative use case for another dependency
 CPMAddPackage("gh:catchorg/Catch2@2.13.4")
 
+# 引入 gRPC
+CPMAddPackage(
+  NAME gRPC
+  GITHUB_REPOSITORY grpc/grpc
+  GIT_TAG v1.54.0  # 使用你需要的 gRPC 版本
+)
+
+# 引入 gRPC 
+find_package(gRPC REQUIRED)
+
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/sample/cpp)
 include_directories(${CMAKE_SOURCE_DIR}/sample)
@@ -34,7 +44,7 @@ include_directories(${CMAKE_SOURCE_DIR}/source)
 
 add_subdirectory(sample)
 
-# Checks if tests will to be built
+# Checks if tests will to be built  构建测试模块
 option(BUILD_TESTS "Build tests" OFF)
 if(BUILD_TESTS)
     message("")
@@ -47,13 +57,25 @@ else()
     add_executable(${EXEC_NAME} ${SRC_FILES}  ${SRC_HEADERS})
 endif(BUILD_TESTS)
 
+#判断有没有找到grpc  ,  GRPC单独使用gRPC_FOND(来自find_package), 不使用gRPC_ADDED(来自于CPM).
+if(gRPC_FOUND)
+    message(STATUS "gRPC found.")
+    # 使用 gRPC 的头文件目录
+    include_directories(${gRPC_INCLUDE_DIRS})
+    target_link_libraries(${EXEC_NAME} gRPC)
+else()
+    message(FATAL_ERROR "gRPC not found.")
+endif()
+
 if(spdlog_ADDED)
+    message(STATUS "spdlog libraries are being linked to ${EXEC_NAME}")
     target_link_libraries(${EXEC_NAME} spdlog)
 endif()
 
 if(Catch2_ADDED)
+    message(STATUS "Catch2 libraries are being linked to ${EXEC_NAME}")
     target_link_libraries(${EXEC_NAME} Catch2)
-endif(Catch2_ADDED)
+endif()
 
 # Assign Main as the startup project of the Solution
 set_property(DIRECTORY ${PROJECT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${EXEC_NAME})

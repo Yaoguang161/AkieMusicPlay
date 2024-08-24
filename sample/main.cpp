@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <spdlog/spdlog.h>
+#include <grpc++/grpc++.h>
 #include "test/hello.h"
 
 int main()
