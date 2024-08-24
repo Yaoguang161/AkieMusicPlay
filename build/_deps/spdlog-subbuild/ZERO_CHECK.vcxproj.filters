@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\software\Code\AkieMusicPlay\build\_deps\spdlog-subbuild\CMakeFiles\82e09b8c934d5120845fa71ef8cd086f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\software\Code\AkieMusicPlay\build\_deps\spdlog-subbuild\spdlog-populate-prefix\tmp\spdlog-populate-mkdirs.cmake">
+      <Filter>Buildsystem Input Files\spdlog-populate-prefix\tmp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{121AEF10-C984-3419-B474-E6DB6E5DFDFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\spdlog-populate-prefix\tmp">
+      <UniqueIdentifier>{7BFFC998-E49E-3503-855D-DC138EBAEC3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

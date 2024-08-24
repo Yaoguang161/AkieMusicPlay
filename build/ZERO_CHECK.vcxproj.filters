@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\software\Code\AkieMusicPlay\build\CMakeFiles\6c50e2c33c45a3bddaf212cfd16cb4ea\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake\ide.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake\utils.cmake">
+      <Filter>Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake">
+      <Filter>Buildsystem Input Files\build\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\cmake\CPM.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="E:\software\Code\AkieMusicPlay\sample\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\sample</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D6CAD566-FD64-36F3-B707-697880EC9946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\catch2\406a07db1ac202c2253293c0369ea576800cb47e">
+      <UniqueIdentifier>{E1171CAA-B12F-39BD-A762-C28E99FCD799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0">
+      <UniqueIdentifier>{F4132664-56D7-31F8-A673-64F2663DE4A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\3rdParty\spdlog\be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0\cmake">
+      <UniqueIdentifier>{B6DDC8CD-2083-3969-8800-93777943828F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\cmake">
+      <UniqueIdentifier>{C4FA65C5-B276-354C-80AD-245432991793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{00EAA06A-B080-3C56-9A15-A2CBAAF7D6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\sample">
+      <UniqueIdentifier>{698A4989-769C-3303-A63F-F1F3D5C08DDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

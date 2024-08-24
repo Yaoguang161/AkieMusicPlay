@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3558F526-D84C-3A4D-8160-91B8356FD85E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software\Code\AkieMusicPlay\include;E:\software\Code\AkieMusicPlay\sample\cpp;E:\software\Code\AkieMusicPlay\sample;E:\software\Code\AkieMusicPlay\test;E:\software\Code\AkieMusicPlay\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software\Code\AkieMusicPlay\include;E:\software\Code\AkieMusicPlay\sample\cpp;E:\software\Code\AkieMusicPlay\sample;E:\software\Code\AkieMusicPlay\test;E:\software\Code\AkieMusicPlay\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software\Code\AkieMusicPlay\include;E:\software\Code\AkieMusicPlay\sample\cpp;E:\software\Code\AkieMusicPlay\sample;E:\software\Code\AkieMusicPlay\test;E:\software\Code\AkieMusicPlay\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software\Code\AkieMusicPlay\include;E:\software\Code\AkieMusicPlay\sample\cpp;E:\software\Code\AkieMusicPlay\sample;E:\software\Code\AkieMusicPlay\test;E:\software\Code\AkieMusicPlay\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\software\Code\AkieMusicPlay\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/software/Code/AkieMusicPlay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay -BE:/software/Code/AkieMusicPlay/build --check-stamp-file E:/software/Code/AkieMusicPlay/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\software\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;D:\software\CMake\share\cmake-3.27\Modules\FetchContent.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCXXCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeRCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeSystem.cmake;E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake;E:\software\Code\AkieMusicPlay\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\software\Code\AkieMusicPlay\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/software/Code/AkieMusicPlay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay -BE:/software/Code/AkieMusicPlay/build --check-stamp-file E:/software/Code/AkieMusicPlay/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\software\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;D:\software\CMake\share\cmake-3.27\Modules\FetchContent.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCXXCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeRCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeSystem.cmake;E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake;E:\software\Code\AkieMusicPlay\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\software\Code\AkieMusicPlay\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/software/Code/AkieMusicPlay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay -BE:/software/Code/AkieMusicPlay/build --check-stamp-file E:/software/Code/AkieMusicPlay/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\software\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;D:\software\CMake\share\cmake-3.27\Modules\FetchContent.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCXXCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeRCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeSystem.cmake;E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake;E:\software\Code\AkieMusicPlay\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\software\Code\AkieMusicPlay\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/software/Code/AkieMusicPlay/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay -BE:/software/Code/AkieMusicPlay/build --check-stamp-file E:/software/Code/AkieMusicPlay/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\software\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\software\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;D:\software\CMake\share\cmake-3.27\Modules\FetchContent.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\software\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeCXXCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeRCCompiler.cmake;E:\software\Code\AkieMusicPlay\build\CMakeFiles\3.27.0\CMakeSystem.cmake;E:\software\Code\AkieMusicPlay\build\cmake\CPM_0.32.2.cmake;E:\software\Code\AkieMusicPlay\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\software\Code\AkieMusicPlay\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\software\Code\AkieMusicPlay\build\ZERO_CHECK.vcxproj">
+      <Project>{A7CBEC57-CEFF-37C5-9E9C-7CCCE506CDCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software\Code\AkieMusicPlay\build\AkieMusicPlay.vcxproj">
+      <Project>{E2BBA9FB-BE41-311E-B816-F38D1DB291C6}</Project>
+      <Name>AkieMusicPlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\software\Code\AkieMusicPlay\build\_deps\spdlog-build\spdlog.vcxproj">
+      <Project>{AB6BEBE7-BA28-388A-9295-AA6C413C631E}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

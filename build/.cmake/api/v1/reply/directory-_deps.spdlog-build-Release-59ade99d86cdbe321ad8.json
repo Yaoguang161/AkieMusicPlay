@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/spdlog-build",
+		"source" : "3rdParty/spdlog/be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0"
+	}
+}

@@ -1,0 +1,10 @@
+^E:\SOFTWARE\CODE\AKIEMUSICPLAY\BUILD\CMAKEFILES\6C50E2C33C45A3BDDAF212CFD16CB4EA\GENERATE.STAMP.RULE
+setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay -BE:/software/Code/AkieMusicPlay/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/software/Code/AkieMusicPlay/build/Akie_musicplay.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

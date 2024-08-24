@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+D:/software/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+D:/software/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+D:/software/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+D:/software/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+D:/software/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+D:/software/CMake/share/cmake-3.27/Modules/FindThreads.cmake
+D:/software/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake
+D:/software/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+E:/software/Code/AkieMusicPlay/3rdParty/spdlog/be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0/CMakeLists.txt
+E:/software/Code/AkieMusicPlay/3rdParty/spdlog/be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0/cmake/ide.cmake
+E:/software/Code/AkieMusicPlay/3rdParty/spdlog/be9796fe42cf4cd102be04c44dd3c83ff2a4d1c0/cmake/utils.cmake

@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3rdParty/catch2/406a07db1ac202c2253293c0369ea576800cb47e/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Catch2WithMain::@3e93893dc0618e684ae7"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@3e93893dc0618e684ae7",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/catch2-build",
+		"source" : "3rdParty/catch2/406a07db1ac202c2253293c0369ea576800cb47e"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

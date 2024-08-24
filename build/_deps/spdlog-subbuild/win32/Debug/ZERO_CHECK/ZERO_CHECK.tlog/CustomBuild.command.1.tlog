@@ -1,0 +1,10 @@
+^E:\SOFTWARE\CODE\AKIEMUSICPLAY\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\82E09B8C934D5120845FA71EF8CD086F\GENERATE.STAMP.RULE
+setlocal
+D:\software\CMake\bin\cmake.exe -SE:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild -BE:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/spdlog-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

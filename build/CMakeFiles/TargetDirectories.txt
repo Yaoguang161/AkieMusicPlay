@@ -1,0 +1,7 @@
+E:/software/Code/AkieMusicPlay/build/CMakeFiles/AkieMusicPlay.dir
+E:/software/Code/AkieMusicPlay/build/CMakeFiles/ALL_BUILD.dir
+E:/software/Code/AkieMusicPlay/build/CMakeFiles/ZERO_CHECK.dir
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-build/CMakeFiles/spdlog.dir
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-build/CMakeFiles/ALL_BUILD.dir
+E:/software/Code/AkieMusicPlay/build/_deps/catch2-build/CMakeFiles/Catch2WithMain.dir
+E:/software/Code/AkieMusicPlay/build/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir

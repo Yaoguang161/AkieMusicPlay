@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/82e09b8c934d5120845fa71ef8cd086f/spdlog-populate.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/bcfe10b7fe3d3228a9e5f72436aebc98/spdlog-populate-complete.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-build.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-configure.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-download.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-install.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-mkdir.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-patch.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-test.rule
+E:/software/Code/AkieMusicPlay/build/_deps/spdlog-subbuild/CMakeFiles/e5f1f61d264339e82938f62e089db8f1/spdlog-populate-update.rule
