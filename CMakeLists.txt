@@ -10,20 +10,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)          ## 取消额外语法
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  ## clang 的相关内容
 
+#设置编译模式Debug
 SET(CMAKE_BUILD_TYPE "Debug")
 # 添加对 gdb 的支持
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
 SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
-# 包含 CPM.cmake
+# 包含 CPM.cmake  下面是两种CPM的使用方式
 include(cmake/CPM.cmake)
-# CPM.cmake configuration
+# CPM.cmake configuration  方式一:  引入spdlog日志库
 CPMAddPackage(
     NAME spdlog
     GITHUB_REPOSITORY gabime/spdlog
-    VERSION 1.8.5)
-
-# Alternative use case for another dependency
+    VERSION 1.8.5
+)
+# Alternative use case for another dependency 方式二: 引入Catch2, 测试框架
 CPMAddPackage("gh:catchorg/Catch2@2.13.4")
 
 # 引入 gRPC
@@ -33,8 +34,18 @@ CPMAddPackage(
   GIT_TAG v1.54.0  # 使用你需要的 gRPC 版本
 )
 
-# 引入 gRPC 
+# 引入 gRPC , 查找是否引入成功
 find_package(gRPC REQUIRED)
+
+#Qt相关内容
+# 设置Qt路径
+set(CMAKE_PREFIX_PATH "D:/software/DevConfig/Qt/6.6.1/msvc2019_64")
+# 查找Qt模块
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
+#Qt相关开关
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/sample/cpp)
@@ -60,11 +71,27 @@ endif(BUILD_TESTS)
 #判断有没有找到grpc  ,  GRPC单独使用gRPC_FOND(来自find_package), 不使用gRPC_ADDED(来自于CPM).
 if(gRPC_FOUND)
     message(STATUS "gRPC found.")
-    # 使用 gRPC 的头文件目录
-    include_directories(${gRPC_INCLUDE_DIRS})
-    target_link_libraries(${EXEC_NAME} gRPC)
+    # 确保头文件路径被正确添加
+    # 添加 gRPC 头文件路径
+    include_directories(${CMAKE_SOURCE_DIR}/3rdParty/${gRPC_INCLUDE_DIRS})
+    # 如果 gRPC 库路径也在 3rdParty 目录中，需要添加库路径
+    link_directories(${CMAKE_SOURCE_DIR}/3rdParty/${gRPC_LIBRARY_DIRS})
+    # 链接 gRPC 库
+    target_link_libraries(${EXEC_NAME} grpc++ grpc)
+    message(STATUS "gRPC libraries are being linked to ${EXEC_NAME}")
 else()
     message(FATAL_ERROR "gRPC not found.")
+endif()
+
+# 判断是否成功查找到Qt库
+if(Qt6_FOUND)
+    message(STATUS "Qt6 libraries found.")
+    message(STATUS "Qt6 Concurrent library: ${Qt6Concurrent_LIBRARIES}")
+    message(STATUS "Qt6 Core library: ${Qt6Core_LIBRARIES}")
+    # 链接Qt库
+    target_link_libraries(${EXEC_NAME} Qt6::Core Qt6::Gui Qt6::Widgets)
+else()
+    message(FATAL_ERROR "Qt6 libraries not found. Make sure Qt6 is installed and findable.")
 endif()
 
 if(spdlog_ADDED)
