@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
     spdlog::info("Hello world!");
     std::cout  << "Hello CMake!" << std::endl;
     hello();
+    std::cout << "Hello 1111!" << std::endl;
     return 0;
 }
 

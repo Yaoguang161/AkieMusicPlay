@@ -10,6 +10,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)          ## 取消额外语法
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  ## clang 的相关内容
 
+set(THIRD_PARTY_FOLDER "3rdParty")
+set(GRPC_FOLDER "3rdParty/gRPC")
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+get_property(all_targets DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY BUILDSYSTEM_TARGETS)
+
 #设置编译模式Debug
 SET(CMAKE_BUILD_TYPE "Debug")
 # 添加对 gdb 的支持
@@ -23,15 +28,23 @@ CPMAddPackage(
     NAME spdlog
     GITHUB_REPOSITORY gabime/spdlog
     VERSION 1.8.5
+    EXCLUDE_FROM_ALL YES
 )
 # Alternative use case for another dependency 方式二: 引入Catch2, 测试框架
-CPMAddPackage("gh:catchorg/Catch2@2.13.4")
+#CPMAddPackage("gh:catchorg/Catch2@2.13.4")
+CPMAddPackage(
+    NAME Catch2
+    GITHUB_REPOSITORY catchorg/Catch2
+    VERSION 2.13.4
+    EXCLUDE_FROM_ALL YES
+)
 
 # 引入 gRPC
 CPMAddPackage(
   NAME gRPC
   GITHUB_REPOSITORY grpc/grpc
   GIT_TAG v1.54.0  # 使用你需要的 gRPC 版本
+  EXCLUDE_FROM_ALL YES
 )
 
 # 引入 gRPC , 查找是否引入成功
@@ -76,12 +89,44 @@ if(gRPC_FOUND)
     include_directories(${CMAKE_SOURCE_DIR}/3rdParty/${gRPC_INCLUDE_DIRS})
     # 如果 gRPC 库路径也在 3rdParty 目录中，需要添加库路径
     link_directories(${CMAKE_SOURCE_DIR}/3rdParty/${gRPC_LIBRARY_DIRS})
+
+     # gRPC 核心库
+     set_target_properties(grpc PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(grpc++ PROPERTIES FOLDER ${GRPC_FOLDER})
+ 
+     # gRPC 的依赖库
+     set_target_properties(gpr PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(ssl PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(re2 PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(upb PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(zlibstatic PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(address_sorting PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(c-ares PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(crypto PROPERTIES FOLDER ${GRPC_FOLDER})
+     set_target_properties(libprotobuf PROPERTIES FOLDER ${GRPC_FOLDER})
+
+    # #MSVC生成解决方案
+    # set_target_properties(grpc++ PROPERTIES FOLDER ${THIRD_PARTY_FOLDER})
+    # set_target_properties(grpc PROPERTIES FOLDER ${THIRD_PARTY_FOLDER})
     # 链接 gRPC 库
     target_link_libraries(${EXEC_NAME} grpc++ grpc)
     message(STATUS "gRPC libraries are being linked to ${EXEC_NAME}")
 else()
     message(FATAL_ERROR "gRPC not found.")
 endif()
+
+# 遍历所有目标，查找与 Abseil 相关的目标
+foreach(target ${all_targets})
+    get_target_property(target_type ${target} TYPE)
+    # 只处理已构建的目标
+    if(NOT ${target_type} STREQUAL "INTERFACE_LIBRARY" AND NOT ${target_type} STREQUAL "UNKNOWN")
+        # 查找目标名称中包含 "absl" 的目标，这是 Abseil 的特征
+        if("${target}" MATCHES "absl")
+            # 将该目标的 FOLDER 属性设置为 gRPC 的子文件夹
+            set_target_properties(${target} PROPERTIES FOLDER "${GRPC_FOLDER}/Abseil")
+        endif()
+    endif()
+endforeach()
 
 # 判断是否成功查找到Qt库
 if(Qt6_FOUND)
@@ -96,6 +141,7 @@ endif()
 
 if(spdlog_ADDED)
     message(STATUS "spdlog libraries are being linked to ${EXEC_NAME}")
+    set_target_properties(spdlog PROPERTIES FOLDER ${THIRD_PARTY_FOLDER})
     target_link_libraries(${EXEC_NAME} spdlog)
 endif()
 
