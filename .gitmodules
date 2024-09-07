@@ -1,0 +1,9 @@
+[submodule "3rdParty/spdlog"]
+	path = 3rdParty/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "3rdParty/json"]
+	path = 3rdParty/json
+	url = https://github.com/nlohmann/json.git
+[submodule "3rdParty/grpc"]
+	path = 3rdParty/grpc
+	url = https://github.com/grpc/grpc.git
