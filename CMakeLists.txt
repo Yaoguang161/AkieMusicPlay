@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)          ## 取消额外语法
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  ## clang 的相关内容
+set_property(GLOBAL PROPERTY USE_FOLDERS ON) #打开允许创建文件夹的开关
 
 set(protobuf_DIR "D:/software/DevConfig/vcpkg/installed/x64-windows/share/protobuf")
 set(gRPC_DIR "D:/software/DevConfig/vcpkg/installed/x64-windows/share/grpc")
@@ -49,10 +50,12 @@ include_directories(${CMAKE_SOURCE_DIR}/sample/cpp)
 include_directories(${CMAKE_SOURCE_DIR}/sample)
 include_directories(${CMAKE_SOURCE_DIR}/test)
 include_directories(${CMAKE_SOURCE_DIR}/source)
+include_directories(${CMAKE_SOURCE_DIR}/source/music)
 
 add_subdirectory(sample)
+add_subdirectory(source)
 
-add_executable(${EXEC_NAME} ${SRC_FILES}  ${SRC_HEADERS} ${TEST_FILES})
+add_executable(${EXEC_NAME} ${SRC_FILES} ${SRC_HEADERS} ${MUSIC_FILES})
 
 # 判断是否成功查找到Qt库
 if(Qt6_FOUND)
