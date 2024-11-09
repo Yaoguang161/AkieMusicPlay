@@ -1,5 +1,5 @@
 #include "help.h"
 void help()
 {
-    cout << "help" << endl;
+    std::cout << "help" << std::endl;
 }

@@ -1,54 +1,44 @@
 #ifndef BUILD_TESTS
 
 #include <spdlog/spdlog.h>
-#include <QApplication>
-#include <QWidget>
+#include <spdlog/sinks/stdout_color_sinks.h>
+
+#include <grpc++/grpc++.h> 
+#include <grpcpp/grpcpp.h>
+
+#include "MainPage/mainWidget.h"
 #include "hello/hello.h"
-#include "help.h"
-//#include <grpc++/grpc++.h> 
-//#include <grpcpp/grpcpp.h>
+#include "music/help.h"
 
-class FirstWindow : public QWidget {
-public:
-    FirstWindow() {
-        // 去掉窗口的标题栏和边框
-        setWindowFlags(Qt::FramelessWindowHint);
-        // 启用高 DPI 支持
-        QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
-        // 获取当前设备的像素缩放因子
-        qreal pixelRatio = devicePixelRatio();
-
-        // 使用缩放因子来调整窗口的大小
-        int logicalWidth = 1842 / pixelRatio;
-        int logicalHeight = 1311 / pixelRatio;
-        resize(logicalWidth, logicalHeight);  // 设置逻辑像素大小
-    }
-};
+#include <QApplication>
 
 int main(int argc, char *argv[])
 {
+    hello();
+    // 创建一个带有颜色输出的控制台日志器
+    auto console = spdlog::stdout_color_mt("console");
+    console->set_pattern("%^[%T] %n: %v%$"); // 设置输出格式
+
+    // 打印日志信息
+    console->info("Hello, this is an info message.");
+    console->warn("This is a warning message.");
+    console->error("An error occurred: {}", "example error");
+    console->critical("This is a critical message.");
+
+    // 使用不同的日志级别
+    console->debug("This debug message will only show if the log level is set to debug.");
+
+    // 设置日志级别
+    spdlog::set_level(spdlog::level::debug); // 设置全局日志级别为 debug
+    console->debug("Now this debug message is visible.");
+
+
     QApplication app(argc, argv);
 
-    // 创建第一个窗口
-    FirstWindow window1;
-    window1.show();
+    mainWidget window;
+    window.show();
 
-    //// 创建一个 gRPC 通道，指向一个假设的服务器地址
-    //auto channel = grpc::CreateChannel("localhost:50051", grpc::InsecureChannelCredentials());
-
-    //if (channel) {
-    //    std::cout << "gRPC channel created successfully!" << std::endl;
-    //} else {
-    //    std::cout << "Failed to create gRPC channel." << std::endl;
-    //}
-
-    spdlog::warn("Ola povo!");
-    spdlog::info("Hello world!");
-    std::cout  << "Hello CMake!" << std::endl;
-    hello();
-    std::cout << "Hello 1111!" << std::endl;
-    return app.exec();  // 确保窗口显示直到关闭;
+    return 0;
 }
 
 #endif
