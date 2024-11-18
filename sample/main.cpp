@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     mainWidget window;
     window.show();
 
-    return 0;
+    return app.exec();
 }
 
 #endif
