@@ -29,6 +29,7 @@ SET(CMAKE_BUILD_TYPE "Debug")
 # SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
 # SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
+#调用cmake文件夹中的文件
 include(${CMAKE_SOURCE_DIR}/cmake/source_file.cmake)
 
 # spdlog的部分配置

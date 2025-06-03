@@ -11,27 +11,23 @@
 #include "music/help.h"
 
 #include <QApplication>
+#include <QDir>
 
 int main(int argc, char *argv[])
 {
     hello();
-    // 创建一个带有颜色输出的控制台日志器
-    auto console = spdlog::stdout_color_mt("console");
-    console->set_pattern("%^[%T] %n: %v%$"); // 设置输出格式
-
-    // 打印日志信息
-    console->info("Hello, this is an info message.");
-    console->warn("This is a warning message.");
-    console->error("An error occurred: {}", "example error");
-    console->critical("This is a critical message.");
-
-    // 使用不同的日志级别
-    console->debug("This debug message will only show if the log level is set to debug.");
-
     // 设置日志级别
     spdlog::set_level(spdlog::level::debug); // 设置全局日志级别为 debug
-    console->debug("Now this debug message is visible.");
+    // 设置日志输出格式
+    spdlog::set_pattern("%^[%T] %n: %v%$");
 
+    SPDLOG_INFO("Hello, this is an info message.");
+    SPDLOG_WARN("This is a warning.");
+    SPDLOG_ERROR("An error occurred: {}", "example error");
+    SPDLOG_CRITICAL("This is a critical message.");
+    SPDLOG_DEBUG("This is a debug message."); // 需要设置为 debug 等级才会显示
+
+    qDebug() << "Current working directory:" << QDir::currentPath();   //"E:/software/Code/AkieMusicPlay/build" 当前程序运行目录
 
     QApplication app(argc, argv);
 
