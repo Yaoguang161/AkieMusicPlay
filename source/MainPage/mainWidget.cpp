@@ -34,6 +34,60 @@ void mainWidget::initUi()
 		}
 	)");
 	m_pUi->m_pbtnSoftWareName->setText("AkieMusicPlay");
+
+	m_pUi->m_pbtnCurrentPlaying->setIcon(QIcon("../image/image/current-music.png"));
+	m_pUi->m_pbtnCurrentPlaying->setIconSize(QSize(32, 32)); // 必须设置合适大小，否则图标可能不可见
+	m_pUi->m_pbtnCurrentPlaying->setStyleSheet(R"(
+		QPushButton {
+			text-align: left;
+			padding-left: 10px;
+			font-size: 16px;
+			color: #333333;
+			font-weight: bold;
+		}
+	)");
+	m_pUi->m_pbtnSoftWareName->setText("当前播放");
+
+
+	m_pUi->m_pbtnLocalMusic->setIcon(QIcon("../image/image/local-music.png"));
+	m_pUi->m_pbtnLocalMusic->setIconSize(QSize(32, 32)); // 必须设置合适大小，否则图标可能不可见
+	m_pUi->m_pbtnLocalMusic->setStyleSheet(R"(
+		QPushButton {
+			text-align: left;
+			padding-left: 10px;
+			font-size: 16px;
+			color: #333333;
+			font-weight: bold;
+		}
+	)");
+	m_pUi->m_pbtnSoftWareName->setText("本地音乐");
+
+
+	m_pUi->m_pbtnFavoriteMusic->setIcon(QIcon("../image/image/favo-music.png"));
+	m_pUi->m_pbtnFavoriteMusic->setIconSize(QSize(32, 32)); // 必须设置合适大小，否则图标可能不可见
+	m_pUi->m_pbtnFavoriteMusic->setStyleSheet(R"(
+		QPushButton {
+			text-align: left;
+			padding-left: 10px;
+			font-size: 16px;
+			color: #333333;
+			font-weight: bold;
+		}
+	)");
+	m_pUi->m_pbtnSoftWareName->setText("我的收藏");
+
+	m_pUi->m_pbtnSongList->setIcon(QIcon("../image/image/myMusicList.png"));
+	m_pUi->m_pbtnSongList->setIconSize(QSize(32, 32)); // 必须设置合适大小，否则图标可能不可见
+	m_pUi->m_pbtnSongList->setStyleSheet(R"(
+		QPushButton {
+			text-align: left;
+			padding-left: 10px;
+			font-size: 16px;
+			color: #333333;
+			font-weight: bold;
+		}
+	)");
+	m_pUi->m_pbtnSoftWareName->setText("我的歌单");
 }
 
 void mainWidget::setupConnections()
